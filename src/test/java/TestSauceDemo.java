@@ -21,6 +21,7 @@ public class TestSauceDemo {
     @BeforeMethod
     public void initialize() {
         WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().browserVersion("107");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
