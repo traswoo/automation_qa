@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestChrome {
-
     ChromeDriver driver;
 
     public static final String GOOGLE_URL = "https://www.google.lv/?hl=en";
